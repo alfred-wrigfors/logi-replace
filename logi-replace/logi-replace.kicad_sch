@@ -1,0 +1,993 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e353204d-6259-4bfd-a972-78848e05f258")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 218.44 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f8f067-b435-40e0-a5a6-535893742116")
+	)
+	(junction
+		(at 220.98 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb3fceb8-5a61-438e-a043-22e0554efdb6")
+	)
+	(junction
+		(at 187.96 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6e940d9-3ab8-4e90-8cd7-d32e4368c16d")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0241fe82-1fe3-4bfb-b7ec-d7f9314c167c")
+	)
+	(wire
+		(pts
+			(xy 220.98 137.16) (xy 241.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9db425-6f25-456b-8168-f8d73eeae3e6")
+	)
+	(wire
+		(pts
+			(xy 215.9 137.16) (xy 220.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14932ef7-0723-40e8-94d1-b1f6d308dca5")
+	)
+	(wire
+		(pts
+			(xy 234.95 105.41) (xy 236.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f1d81f-b8e1-4165-b312-5017f3078903")
+	)
+	(wire
+		(pts
+			(xy 215.9 132.08) (xy 220.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bec1ab5-cfae-41f6-a5cb-a87a762996e2")
+	)
+	(wire
+		(pts
+			(xy 177.8 110.49) (xy 190.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279aa8a9-66ac-404c-8efb-eec221d450dd")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 234.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39005341-a275-442b-bcf7-1f2f7ef7b77f")
+	)
+	(wire
+		(pts
+			(xy 222.25 100.33) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b49182-6a79-41ab-882b-38dce0d353b6")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 241.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472436ad-6e06-4a1f-aae5-925f8d034927")
+	)
+	(wire
+		(pts
+			(xy 218.44 129.54) (xy 236.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffb4e60-fcf5-4768-a002-b16acf97dbd3")
+	)
+	(wire
+		(pts
+			(xy 228.6 106.68) (xy 228.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c2132c-29cd-4cc8-bef9-9ee5ef98a631")
+	)
+	(wire
+		(pts
+			(xy 234.95 109.22) (xy 234.95 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ee16d8-4a87-4396-b249-0b5701c51bd4")
+	)
+	(wire
+		(pts
+			(xy 218.44 134.62) (xy 218.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645ecf73-74ea-494a-989a-419f54652570")
+	)
+	(wire
+		(pts
+			(xy 190.5 135.89) (xy 187.96 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70473058-8613-471a-b829-1e3b7d6b1c21")
+	)
+	(wire
+		(pts
+			(xy 220.98 132.08) (xy 220.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7392e538-c20f-4379-a454-1461f2162049")
+	)
+	(wire
+		(pts
+			(xy 241.3 137.16) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86afdb9d-c5b2-4ba7-858d-08e989483dcc")
+	)
+	(wire
+		(pts
+			(xy 215.9 134.62) (xy 218.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b49463-7e49-44ee-ae8c-ad69cd69bad0")
+	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5d4d39-71eb-46b7-b482-51a1260cb00a")
+	)
+	(wire
+		(pts
+			(xy 215.9 129.54) (xy 218.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36cfd75-ad78-47eb-97bc-13f53bc95f28")
+	)
+	(wire
+		(pts
+			(xy 215.9 111.76) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a386cea2-5129-4299-9e2b-e65ab30b3d16")
+	)
+	(wire
+		(pts
+			(xy 177.8 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f6c8a3-b28f-4acf-8a70-acadd682cbc5")
+	)
+	(wire
+		(pts
+			(xy 215.9 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41572fa-18d8-482f-b864-8ae73933587d")
+	)
+	(wire
+		(pts
+			(xy 222.25 104.14) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc85a75b-0ea8-43bb-8ccf-c2b4581fe16c")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 187.96 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaad2ba-6daa-4480-87f3-d91c0008aa16")
+	)
+	(wire
+		(pts
+			(xy 222.25 100.33) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a7db8f-c308-4011-8b47-7234c873e89e")
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 241.3 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0a8bba8-cce2-4c72-8d7c-2681714695ec")
+		(property "Reference" "J3"
+			(at 243.84 104.4331 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCA"
+			(at 243.84 106.9731 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 241.3 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f5877ae-bacf-4a75-80ae-341949f0a1c0")
+		)
+		(pin "2"
+			(uuid "28f958e5-a755-4c9f-ae6f-5e9ea6b04a27")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 241.3 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d59483-18a1-48da-8aab-e9669e56cf7c")
+		(property "Reference" "J4"
+			(at 243.84 128.5631 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCA"
+			(at 243.84 131.1031 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 241.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e762c831-ff3d-40f7-9334-ac734513815d")
+		)
+		(pin "2"
+			(uuid "f98822cc-5a39-4e70-acdd-b73aeb8a399d")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 228.6 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaef0723-8e18-48ed-af3f-72aae230be88")
+		(property "Reference" "J2"
+			(at 231.14 99.3531 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCA"
+			(at 231.14 101.8931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 228.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "508bfd54-dc61-4afb-81cd-3cf5e350aacd")
+		)
+		(pin "2"
+			(uuid "5d2a6369-a93f-4234-b01d-ee20e4645cc4")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 101.6)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2fb9eada-ade2-47e2-99bb-647700fb000f")
+		(property "Sheetname" "Audio"
+			(at 139.7 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio.kicad_sch"
+			(at 139.7 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_L" output
+			(at 177.8 105.41 0)
+			(uuid "f73a7a35-70b1-48fe-af3e-02731c850eaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_R" output
+			(at 177.8 110.49 0)
+			(uuid "13bd866e-38b8-4dc4-b2ed-d29ac4f4d4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 101.6)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d09d8e29-26a6-46f9-8b4a-6eae36d2cbca")
+		(property "Sheetname" "Amplifier1"
+			(at 190.5 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifier.kicad_sch"
+			(at 190.5 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_L" input
+			(at 190.5 105.41 180)
+			(uuid "42d2de63-66a8-444a-9052-13a13cf9201c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_R" input
+			(at 190.5 110.49 180)
+			(uuid "7adb65fe-a639-4c30-8050-0566c4effd3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTL_N" input
+			(at 215.9 106.68 0)
+			(uuid "372a5989-e2c4-4a1f-b8c8-202c7e1b982c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTL_P" input
+			(at 215.9 104.14 0)
+			(uuid "44bcaffd-29bf-4afb-af3f-ae73b4ed5f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTR_N" input
+			(at 215.9 111.76 0)
+			(uuid "b8e065e5-c2e8-430d-b42d-c7d3bea124b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTR_P" input
+			(at 215.9 109.22 0)
+			(uuid "2a461e4b-a619-408c-98ad-3c7e176ed24d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 127)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ff054b89-d7c9-43f5-a6ea-a941946c03b3")
+		(property "Sheetname" "Amplifier2"
+			(at 190.5 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifier.kicad_sch"
+			(at 190.5 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_L" input
+			(at 190.5 130.81 180)
+			(uuid "2b13c0b7-1c02-4f32-90cc-088f056f6bd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_R" input
+			(at 190.5 135.89 180)
+			(uuid "92253a11-46c7-4d6a-a6b6-3ca522b50724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTL_N" input
+			(at 215.9 132.08 0)
+			(uuid "7fc89a47-1489-434e-9641-7cd974390497")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTL_P" input
+			(at 215.9 129.54 0)
+			(uuid "54ac7062-e072-45dc-bb13-758e571a392c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTR_N" input
+			(at 215.9 137.16 0)
+			(uuid "dbf20a00-d547-45c8-ba18-9625d684227f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTR_P" input
+			(at 215.9 134.62 0)
+			(uuid "1f72dd5b-f9f0-441a-9d2e-016aaca9a0fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
