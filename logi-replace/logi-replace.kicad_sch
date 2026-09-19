@@ -191,108 +191,474 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 218.44 129.54)
+		(at 147.32 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16f8f067-b435-40e0-a5a6-535893742116")
+		(uuid "172e590d-5e3f-47e4-8970-4f5ca65494db")
 	)
 	(junction
-		(at 220.98 137.16)
+		(at 187.96 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb3fceb8-5a61-438e-a043-22e0554efdb6")
+		(uuid "3cd78dc1-d54e-4902-9a4d-fe8c3ba2d5d5")
 	)
 	(junction
-		(at 187.96 130.81)
+		(at 143.51 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6e940d9-3ab8-4e90-8cd7-d32e4368c16d")
+		(uuid "4d1982d7-7c0d-4284-b20b-343e0da14171")
+	)
+	(junction
+		(at 152.4 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da1d10b-cb9f-4a7f-b098-e48d70f1253a")
+	)
+	(junction
+		(at 149.86 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d707236c-ac0f-4efa-8ff3-485cbd7d316a")
+	)
+	(junction
+		(at 148.59 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee089a62-884a-44e4-8337-4d14c01f08b4")
 	)
 	(wire
 		(pts
-			(xy 187.96 130.81) (xy 190.5 130.81)
+			(xy 157.48 17.78) (xy 157.48 16.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0241fe82-1fe3-4bfb-b7ec-d7f9314c167c")
+		(uuid "0e788b56-71b7-41f4-a5af-fe1c60cf1b19")
 	)
 	(wire
 		(pts
-			(xy 220.98 137.16) (xy 241.3 137.16)
+			(xy 184.15 104.14) (xy 184.15 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d9db425-6f25-456b-8168-f8d73eeae3e6")
+		(uuid "221ca7b9-dd85-4363-82da-f839b3f08399")
 	)
 	(wire
 		(pts
-			(xy 215.9 137.16) (xy 220.98 137.16)
+			(xy 152.4 111.76) (xy 148.59 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14932ef7-0723-40e8-94d1-b1f6d308dca5")
+		(uuid "2ac51286-c7d2-46b2-b773-fa15af1ea186")
 	)
 	(wire
 		(pts
-			(xy 234.95 105.41) (xy 236.22 105.41)
+			(xy 228.6 118.11) (xy 215.9 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16f1d81f-b8e1-4165-b312-5017f3078903")
+		(uuid "30eedc80-b226-45fa-bbf4-20d2b13966e4")
 	)
 	(wire
 		(pts
-			(xy 215.9 132.08) (xy 220.98 132.08)
+			(xy 149.86 17.78) (xy 149.86 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bec1ab5-cfae-41f6-a5cb-a87a762996e2")
+		(uuid "400c06ba-f80e-48a6-8c41-a57cf1ba3235")
 	)
 	(wire
 		(pts
-			(xy 177.8 110.49) (xy 190.5 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279aa8a9-66ac-404c-8efb-eec221d450dd")
-	)
-	(wire
-		(pts
-			(xy 215.9 109.22) (xy 234.95 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39005341-a275-442b-bcf7-1f2f7ef7b77f")
-	)
-	(wire
-		(pts
-			(xy 222.25 100.33) (xy 223.52 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b49182-6a79-41ab-882b-38dce0d353b6")
-	)
-	(wire
-		(pts
-			(xy 241.3 111.76) (xy 241.3 110.49)
+			(xy 228.6 85.09) (xy 228.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -302,17 +668,47 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 129.54) (xy 236.22 129.54)
+			(xy 142.24 16.51) (xy 142.24 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ffb4e60-fcf5-4768-a002-b16acf97dbd3")
+		(uuid "4b71711b-4f7a-4a7b-a7cd-2ae1e05762b8")
 	)
 	(wire
 		(pts
-			(xy 228.6 106.68) (xy 228.6 105.41)
+			(xy 186.69 81.28) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e38eef4-6903-4550-ae49-397695c4b93b")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edc511a-8f17-4944-a81d-90136e2b8389")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 143.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529b2ef5-c386-4bf7-a7ac-c19d29ac2895")
+	)
+	(wire
+		(pts
+			(xy 228.6 73.66) (xy 228.6 72.39)
 		)
 		(stroke
 			(width 0)
@@ -322,158 +718,288 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 109.22) (xy 234.95 105.41)
+			(xy 101.6 67.31) (xy 114.3 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63ee16d8-4a87-4396-b249-0b5701c51bd4")
+		(uuid "5f8d1bab-40c9-4e10-8b13-5b0339d5ae26")
 	)
 	(wire
 		(pts
-			(xy 218.44 134.62) (xy 218.44 129.54)
+			(xy 187.96 81.28) (xy 190.5 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "645ecf73-74ea-494a-989a-419f54652570")
+		(uuid "65e15132-25cc-471a-98a9-f11298a1097a")
 	)
 	(wire
 		(pts
-			(xy 190.5 135.89) (xy 187.96 135.89)
+			(xy 149.86 17.78) (xy 152.4 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70473058-8613-471a-b829-1e3b7d6b1c21")
+		(uuid "737e0f3a-9edc-4d41-ba29-d9286e919d27")
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 220.98 137.16)
+			(xy 152.4 16.51) (xy 152.4 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7392e538-c20f-4379-a454-1461f2162049")
+		(uuid "7c390302-6e83-44ee-a79d-d2c606415827")
 	)
 	(wire
 		(pts
-			(xy 241.3 137.16) (xy 241.3 134.62)
+			(xy 215.9 67.31) (xy 223.52 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86afdb9d-c5b2-4ba7-858d-08e989483dcc")
+		(uuid "7fc37055-c478-4c10-accb-19e8f4e2aaff")
 	)
 	(wire
 		(pts
-			(xy 215.9 134.62) (xy 218.44 134.62)
+			(xy 139.7 67.31) (xy 190.5 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93b49463-7e49-44ee-ae8c-ad69cd69bad0")
+		(uuid "86a1ee9e-3e06-4a73-8c87-058c9ca92303")
 	)
 	(wire
 		(pts
-			(xy 177.8 105.41) (xy 190.5 105.41)
+			(xy 152.4 17.78) (xy 157.48 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e5d4d39-71eb-46b7-b482-51a1260cb00a")
+		(uuid "8f6e3ef3-8509-4064-895a-e9614b15868f")
 	)
 	(wire
 		(pts
-			(xy 215.9 129.54) (xy 218.44 129.54)
+			(xy 184.15 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a36cfd75-ad78-47eb-97bc-13f53bc95f28")
+		(uuid "91ce6800-93a9-4333-8be7-07fa61242b61")
 	)
 	(wire
 		(pts
-			(xy 215.9 111.76) (xy 241.3 111.76)
+			(xy 148.59 111.76) (xy 148.59 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a386cea2-5129-4299-9e2b-e65ab30b3d16")
+		(uuid "99aabca3-85c7-45a4-afd9-5e5ef5c4ac9d")
 	)
 	(wire
 		(pts
-			(xy 177.8 130.81) (xy 187.96 130.81)
+			(xy 215.9 78.74) (xy 223.52 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9f6c8a3-b28f-4acf-8a70-acadd682cbc5")
+		(uuid "9c3e4ead-f350-4d54-89b5-5a2120948fa9")
 	)
 	(wire
 		(pts
-			(xy 215.9 106.68) (xy 228.6 106.68)
+			(xy 190.5 104.14) (xy 184.15 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d41572fa-18d8-482f-b864-8ae73933587d")
+		(uuid "9c9f39d5-0081-4f95-96ff-c982329a2942")
 	)
 	(wire
 		(pts
-			(xy 222.25 104.14) (xy 215.9 104.14)
+			(xy 143.51 77.47) (xy 143.51 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc85a75b-0ea8-43bb-8ccf-c2b4581fe16c")
+		(uuid "9f6ed8e6-2517-4397-b62a-5fe587d2be49")
 	)
 	(wire
 		(pts
-			(xy 187.96 130.81) (xy 187.96 135.89)
+			(xy 184.15 91.44) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebaad2ba-6daa-4480-87f3-d91c0008aa16")
+		(uuid "a3c8a918-be51-410e-8a92-e524f68e43db")
 	)
 	(wire
 		(pts
-			(xy 222.25 100.33) (xy 222.25 104.14)
+			(xy 228.6 115.57) (xy 228.6 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2a7db8f-c308-4011-8b47-7234c873e89e")
+		(uuid "b331bda8-6863-4e94-847e-9e4bd934a8ee")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b70393-1a84-4757-b043-5791731829e7")
+	)
+	(wire
+		(pts
+			(xy 147.32 16.51) (xy 147.32 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ba9b82-219b-45d3-bd9e-92ec205783d6")
+	)
+	(wire
+		(pts
+			(xy 215.9 85.09) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6c6948-6926-401e-ac5f-fe83c94e4740")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa92d54-1329-4b64-818e-69e0092f0a04")
+	)
+	(wire
+		(pts
+			(xy 147.32 17.78) (xy 149.86 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65eee59-eb9c-45c0-8a27-41b0a6e6de16")
+	)
+	(wire
+		(pts
+			(xy 215.9 110.49) (xy 223.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca6ee09-c6a6-45d2-b227-7a8a839a5d75")
+	)
+	(wire
+		(pts
+			(xy 143.51 77.47) (xy 190.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef09faf8-ae82-4b8f-b3ff-2968c0caeaaa")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 187.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43838da-0d21-4523-a5a9-92e8f01e0089")
+	)
+	(wire
+		(pts
+			(xy 142.24 17.78) (xy 147.32 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54bae69-8736-408c-b200-d9450dd33763")
+	)
+	(wire
+		(pts
+			(xy 101.6 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6272bd6-5086-4022-97a4-0a569b60f4e1")
+	)
+	(wire
+		(pts
+			(xy 177.8 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9ebba8-1482-482f-9461-70abc95a5023")
+	)
+	(wire
+		(pts
+			(xy 215.9 73.66) (xy 228.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda46c54-b6f2-4525-af8c-f8d85e454e03")
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 241.3 105.41 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 142.24 13.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0a8bba8-cce2-4c72-8d7c-2681714695ec")
-		(property "Reference" "J3"
-			(at 243.84 104.4331 0)
+		(uuid "536df3df-dca7-40bd-914b-465bc74d6db6")
+		(property "Reference" "H1"
+			(at 142.24 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 144.78 13.9699 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -483,19 +1009,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RCA"
-			(at 243.84 106.9731 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 105.41 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 142.24 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -506,7 +1021,322 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 105.41 0)
+			(at 142.24 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 142.24 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f97884b2-32b7-42c4-93ee-3ef195e04e8f")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 152.4 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56c76964-9d8b-4e0a-9e83-3a7cf78b9ea8")
+		(property "Reference" "H3"
+			(at 152.4 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 154.94 13.9699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 152.4 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 152.4 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be05660d-bc56-4813-9cd2-b6b235bda7e7")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "734e8bc5-f05c-4e47-b60c-56f942b46cf2")
+		(property "Reference" "R36"
+			(at 185.42 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.42 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 182.372 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a867d401-5d4b-417a-b08c-4f37ddcaf7ca")
+		)
+		(pin "1"
+			(uuid "e8c016e6-36e7-4b2c-a135-8ea45a476282")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 81.28 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93e6cb79-ebd3-4425-90a0-182021af0eae")
+		(property "Reference" "#PWR047"
+			(at 180.34 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02f2f66c-2c51-4630-a433-41cbb185aca0")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 228.6 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0a8bba8-cce2-4c72-8d7c-2681714695ec")
+		(property "Reference" "ROUT1"
+			(at 231.14 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCA"
+			(at 231.14 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:REAN_Red"
+			(at 228.6 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -517,7 +1347,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 241.3 105.41 0)
+			(at 228.6 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -536,7 +1366,7 @@
 		(instances
 			(project "logi-replace"
 				(path "/e353204d-6259-4bfd-a972-78848e05f258"
-					(reference "J3")
+					(reference "ROUT1")
 					(unit 1)
 				)
 			)
@@ -544,7 +1374,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 241.3 129.54 0)
+		(at 228.6 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -554,8 +1384,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d59483-18a1-48da-8aab-e9669e56cf7c")
-		(property "Reference" "J4"
-			(at 243.84 128.5631 0)
+		(property "Reference" "SOUT1"
+			(at 231.14 109.5131 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -566,7 +1396,7 @@
 			)
 		)
 		(property "Value" "RCA"
-			(at 243.84 131.1031 0)
+			(at 231.14 112.0531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -577,7 +1407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 129.54 0)
+			(at 228.6 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -588,7 +1418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 129.54 0)
+			(at 228.6 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -599,7 +1429,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 241.3 129.54 0)
+			(at 228.6 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -618,7 +1448,7 @@
 		(instances
 			(project "logi-replace"
 				(path "/e353204d-6259-4bfd-a972-78848e05f258"
-					(reference "J4")
+					(reference "SOUT1")
 					(unit 1)
 				)
 			)
@@ -626,7 +1456,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 228.6 100.33 0)
+		(at 228.6 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -634,10 +1464,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aaef0723-8e18-48ed-af3f-72aae230be88")
-		(property "Reference" "J2"
-			(at 231.14 99.3531 0)
+		(property "Reference" "LOUT1"
+			(at 231.14 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -648,7 +1477,7 @@
 			)
 		)
 		(property "Value" "RCA"
-			(at 231.14 101.8931 0)
+			(at 231.14 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -658,8 +1487,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 228.6 100.33 0)
+		(property "Footprint" "library:REAN_Black"
+			(at 228.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -670,7 +1499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 100.33 0)
+			(at 228.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -681,7 +1510,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 228.6 100.33 0)
+			(at 228.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -700,15 +1529,326 @@
 		(instances
 			(project "logi-replace"
 				(path "/e353204d-6259-4bfd-a972-78848e05f258"
-					(reference "J2")
+					(reference "LOUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 124.46 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0712cb6-2b86-4cf8-a164-f2dae8e8e5d0")
+		(property "Reference" "#PWR048"
+			(at 181.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a87ece9-2b58-4770-b09c-8f5c269440cf")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 157.48 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca46a43c-cbb3-475e-8bac-ba391835ca08")
+		(property "Reference" "H4"
+			(at 157.48 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 160.02 13.9699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 157.48 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 157.48 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29dea4c3-b41e-48f2-8f86-f5ca5b4f3478")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 147.32 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6f1024e-c5cf-44b8-acb5-877e5ab2973f")
+		(property "Reference" "H2"
+			(at 147.32 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 149.86 13.9699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 147.32 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 147.32 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e8ac78a-7c16-4c6f-b0c8-da42748055cb")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f651a35f-6828-41ff-8dcb-dab6f1829fcf")
+		(property "Reference" "#PWR044"
+			(at 149.86 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc000615-c115-49e9-b46c-938461247268")
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 139.7 101.6)
-		(size 38.1 38.1)
+		(at 76.2 63.5)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -723,7 +1863,7 @@
 		)
 		(uuid "2fb9eada-ade2-47e2-99bb-647700fb000f")
 		(property "Sheetname" "Audio"
-			(at 139.7 100.8884 0)
+			(at 76.2 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -734,7 +1874,7 @@
 			)
 		)
 		(property "Sheetfile" "Audio.kicad_sch"
-			(at 139.7 140.2846 0)
+			(at 76.2 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -745,7 +1885,7 @@
 			)
 		)
 		(pin "OUT_L" output
-			(at 177.8 105.41 0)
+			(at 101.6 67.31 0)
 			(uuid "f73a7a35-70b1-48fe-af3e-02731c850eaa")
 			(effects
 				(font
@@ -755,7 +1895,7 @@
 			)
 		)
 		(pin "OUT_R" output
-			(at 177.8 110.49 0)
+			(at 101.6 77.47 0)
 			(uuid "13bd866e-38b8-4dc4-b2ed-d29ac4f4d4b6")
 			(effects
 				(font
@@ -773,8 +1913,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 101.6)
-		(size 25.4 12.7)
+		(at 190.5 63.5)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -787,9 +1927,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "d09d8e29-26a6-46f9-8b4a-6eae36d2cbca")
-		(property "Sheetname" "Amplifier1"
-			(at 190.5 100.8884 0)
+		(uuid "5f692916-2af8-4ffe-a4f0-d286fb395be4")
+		(property "Sheetname" "Amp LR"
+			(at 190.5 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -799,8 +1939,144 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Amplifier.kicad_sch"
-			(at 190.5 114.8846 0)
+		(property "Sheetfile" "amp-lr.kicad_sch"
+			(at 190.5 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INL_N" input
+			(at 190.5 71.12 180)
+			(uuid "9d18cc09-81ec-474c-b031-d7d11636b045")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INL_P" input
+			(at 190.5 67.31 180)
+			(uuid "c5d4b5a0-f9b5-4064-9eb8-82dd3013d1b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INR_N" input
+			(at 190.5 81.28 180)
+			(uuid "ee41b7b3-d06d-4c35-a528-089e6b96e4b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INR_P" input
+			(at 190.5 77.47 180)
+			(uuid "df616f46-d0ab-4484-bf48-eae94c77cc69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTL_N" output
+			(at 215.9 73.66 0)
+			(uuid "01fa6a73-6ec9-41ec-a433-d56992177b2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTL_P" output
+			(at 215.9 67.31 0)
+			(uuid "eb91845a-411f-4490-8155-246d2fbdcd10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTR_N" output
+			(at 215.9 85.09 0)
+			(uuid "078f9676-1392-4558-ab1f-4c5005fb5972")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTR_P" output
+			(at 215.9 78.74 0)
+			(uuid "278a628c-be45-401d-a738-d7cdcaf03f4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYNC" output
+			(at 190.5 86.36 180)
+			(uuid "9e73240f-2672-4975-be78-8235ee8101d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 101.6)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bc41b93e-5afd-473c-836b-8d7e329a1417")
+		(property "Sheetname" "Mixer"
+			(at 152.4 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixer.kicad_sch"
+			(at 152.4 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -811,8 +2087,8 @@
 			)
 		)
 		(pin "IN_L" input
-			(at 190.5 105.41 180)
-			(uuid "42d2de63-66a8-444a-9052-13a13cf9201c")
+			(at 152.4 111.76 180)
+			(uuid "8d477d5f-fcd6-44fd-aade-0905f2f12257")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,8 +2097,8 @@
 			)
 		)
 		(pin "IN_R" input
-			(at 190.5 110.49 180)
-			(uuid "7adb65fe-a639-4c30-8050-0566c4effd3f")
+			(at 152.4 116.84 180)
+			(uuid "b433881b-d21d-48c1-8b7c-6521b5b50a8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,9 +2106,9 @@
 				(justify left)
 			)
 		)
-		(pin "OUTL_N" input
-			(at 215.9 106.68 0)
-			(uuid "372a5989-e2c4-4a1f-b8c8-202c7e1b982c")
+		(pin "OUT" output
+			(at 177.8 114.3 0)
+			(uuid "63066edc-3c37-466e-86f9-76714d491efe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,9 +2116,75 @@
 				(justify right)
 			)
 		)
-		(pin "OUTL_P" input
-			(at 215.9 104.14 0)
-			(uuid "44bcaffd-29bf-4afb-af3f-ae73b4ed5f58")
+		(instances
+			(project "logi-replace"
+				(path "/e353204d-6259-4bfd-a972-78848e05f258"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dd01078d-737a-4674-bd92-c72f58452cdd")
+		(property "Sheetname" "Volume"
+			(at 114.3 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "volume.kicad_sch"
+			(at 114.3 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_L" input
+			(at 114.3 67.31 180)
+			(uuid "a2c9a3bb-3786-48f5-8cee-a5cd438f5996")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_R" input
+			(at 114.3 77.47 180)
+			(uuid "e2ecf4da-d9dc-4f2a-be2b-a3b759edf4b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_L" output
+			(at 139.7 67.31 0)
+			(uuid "ef3f5f1c-620c-4a86-9160-13991ada0fec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,19 +2192,9 @@
 				(justify right)
 			)
 		)
-		(pin "OUTR_N" input
-			(at 215.9 111.76 0)
-			(uuid "b8e065e5-c2e8-430d-b42d-c7d3bea124b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUTR_P" input
-			(at 215.9 109.22 0)
-			(uuid "2a461e4b-a619-408c-98ad-3c7e176ed24d")
+		(pin "OUT_R" output
+			(at 139.7 77.47 0)
+			(uuid "ff98f50f-d728-4959-a31b-ae5c20ef3039")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,8 +2211,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 127)
-		(size 25.4 12.7)
+		(at 190.5 101.6)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -893,9 +2225,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "ff054b89-d7c9-43f5-a6ea-a941946c03b3")
-		(property "Sheetname" "Amplifier2"
-			(at 190.5 126.2884 0)
+		(uuid "dda2d014-d619-4e2b-887f-e6e8c90baf4f")
+		(property "Sheetname" "Amp Sub"
+			(at 190.5 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -905,8 +2237,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Amplifier.kicad_sch"
-			(at 190.5 140.2846 0)
+		(property "Sheetfile" "amp-sub.kicad_sch"
+			(at 190.5 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -916,9 +2248,29 @@
 				(justify left top)
 			)
 		)
-		(pin "IN_L" input
-			(at 190.5 130.81 180)
-			(uuid "2b13c0b7-1c02-4f32-90cc-088f056f6bd0")
+		(pin "OUT_N" output
+			(at 215.9 118.11 0)
+			(uuid "27e09e5d-2b78-4d2f-a213-7109544bc360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 215.9 110.49 0)
+			(uuid "90f8bb3d-5b98-4418-bb78-d8059e7b66c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_N" input
+			(at 190.5 124.46 180)
+			(uuid "fc09f9bf-7c0d-4209-877b-e1dad9817f15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,9 +2278,9 @@
 				(justify left)
 			)
 		)
-		(pin "IN_R" input
-			(at 190.5 135.89 180)
-			(uuid "92253a11-46c7-4d6a-a6b6-3ca522b50724")
+		(pin "IN_P" input
+			(at 190.5 114.3 180)
+			(uuid "110e1af7-4338-4a7d-b81a-33df5df11e6a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,50 +2288,20 @@
 				(justify left)
 			)
 		)
-		(pin "OUTL_N" input
-			(at 215.9 132.08 0)
-			(uuid "7fc89a47-1489-434e-9641-7cd974390497")
+		(pin "SYNC" input
+			(at 190.5 104.14 180)
+			(uuid "5d64efba-c162-44a6-a6b4-2bd7163910e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "OUTL_P" input
-			(at 215.9 129.54 0)
-			(uuid "54ac7062-e072-45dc-bb13-758e571a392c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUTR_N" input
-			(at 215.9 137.16 0)
-			(uuid "dbf20a00-d547-45c8-ba18-9625d684227f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUTR_P" input
-			(at 215.9 134.62 0)
-			(uuid "1f72dd5b-f9f0-441a-9d2e-016aaca9a0fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "logi-replace"
 				(path "/e353204d-6259-4bfd-a972-78848e05f258"
-					(page "5")
+					(page "3")
 				)
 			)
 		)

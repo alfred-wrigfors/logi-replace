@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 5.0,
+          "width": 11.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.2,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.35,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -673,7 +673,7 @@
         "uuid": "e353204d-6259-4bfd-a972-78848e05f258"
       }
     ],
-    "used_designators": "U1-3,L1-2,#PWR1-47,C1-30,J1-7,R1-34,JP1-4,SW1-6,D1-14,Y1-2,TP1-4",
+    "used_designators": "U1-8,L1-8,#PWR1-48,C1-74,J1-7,R1-55,JP1-4,SW1-6,D1-14,Y1-2,TP1-4,H1-4,JROUT1,LOUT1",
     "variants": []
   },
   "sheets": [
@@ -682,16 +682,24 @@
       "logi-replace"
     ],
     [
+      "5f692916-2af8-4ffe-a4f0-d286fb395be4",
+      "Amp LR"
+    ],
+    [
+      "dda2d014-d619-4e2b-887f-e6e8c90baf4f",
+      "Amp Sub"
+    ],
+    [
       "2fb9eada-ade2-47e2-99bb-647700fb000f",
       "Audio"
     ],
     [
-      "ff054b89-d7c9-43f5-a6ea-a941946c03b3",
-      "Amplifier2"
+      "bc41b93e-5afd-473c-836b-8d7e329a1417",
+      "Mixer"
     ],
     [
-      "d09d8e29-26a6-46f9-8b4a-6eae36d2cbca",
-      "Amplifier1"
+      "dd01078d-737a-4674-bd92-c72f58452cdd",
+      "Volume"
     ]
   ],
   "text_variables": {},
